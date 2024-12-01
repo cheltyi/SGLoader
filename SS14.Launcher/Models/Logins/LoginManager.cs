@@ -44,7 +44,7 @@ public sealed class LoginManager : ReactiveObject
 
                 if (!lookup.HasValue)
                 {
-                    throw new ArgumentException("We do not have a login with that ID.");
+                    throw new ArgumentException("Соси хуй такого логина с айди нет чёёёё");
                 }
             }
 

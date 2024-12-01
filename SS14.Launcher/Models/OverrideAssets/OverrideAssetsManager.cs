@@ -39,12 +39,12 @@ public sealed class OverrideAssetsManager
 
         con.Execute("PRAGMA journal_mode=WAL");
 
-        Log.Debug("Migrating override assets database...");
+        Log.Debug("Мигрируем ээ чё бля");
 
         var sw = Stopwatch.StartNew();
         var success = Migrator.Migrate(con, "SS14.Launcher.Models.OverrideAssets.Migrations");
         if (!success)
-            throw new Exception("Migration failed!");
+            throw new Exception("Мигрирование чурок остановлено соси");
 
         Log.Debug("Did override assets DB migrations in {MigrationTime}", sw.Elapsed);
 

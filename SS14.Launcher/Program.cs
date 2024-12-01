@@ -147,17 +147,17 @@ internal static class Program
             return;
 
         var text =
-            "You are using an old version of Windows that is no longer supported by Space Station 14.\n\n" +
-            "If anything breaks, DO NOT ASK FOR HELP OR SUPPORT.";
+            "Ты чё еблан нахуй ты старую винду юзаешь тупой блять\n\n" +
+            "Если чёт покорёжится то нихуя не поможем ебантяй";
 
-        var caption = "Unsupported Windows version";
+        var caption = "Винда несаппорт а керри";
 
         uint type = MB.MB_OK | MB.MB_ICONWARNING;
 
         if (Language.UserHasLanguage("ru"))
         {
-            text = "Вы используете старую версию Windows которая больше не поддерживается Space Station 14.\n\n" +
-                   "При возникновении ошибок НЕ БУДЕТ ОКАЗАНО НИКАКОЙ ПОДДЕРЖКИ.";
+            text = "Sosi xuy ya perevel toko na angl\n\n" +
+                   "Tyi typoi";
 
             caption = "Неподдерживаемая версия Windows";
         }

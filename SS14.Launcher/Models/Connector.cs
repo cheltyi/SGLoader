@@ -86,7 +86,7 @@ public class Connector : ReactiveObject
 
     public async void LaunchContentBundle(IStorageFile file, CancellationToken cancel = default)
     {
-        Log.Information("Launching content bundle: {FileName}", file.Path);
+        Log.Information("Запуск контент бандла чёёё: {FileName}", file.Path);
 
         try
         {
@@ -94,12 +94,12 @@ public class Connector : ReactiveObject
         }
         catch (ConnectException e)
         {
-            Log.Error(e, "Failed to launch: {status}", e.Status);
+            Log.Error(e, "Соси не запустилось: {status}", e.Status);
             Status = e.Status;
         }
         catch (OperationCanceledException e)
         {
-            Log.Information(e, "Cancelled launch");
+            Log.Information(e, "Нахуй ты отменил");
             Status = ConnectionStatus.Cancelled;
         }
     }
@@ -177,7 +177,7 @@ public class Connector : ReactiveObject
             installation = await InstallContentBundleAsync(zipFile, zipHash, metadata, cancel);
         }
 
-        Log.Debug("Launching client");
+        Log.Debug("Клиент запускается ez");
 
         // I originally wanted to pass through build info,
         // but then realized I'd need to pipe the entries in the SQLite DB ("AnonymousContentBundle") up and ehhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh.
