@@ -1,3 +1,5 @@
+SS14.Launcher/Assets/logo-long.png
+
 ![# SGloader](SS14.Launcher/Assets/logos/thething.gif)
 
 Space Station 14 launcher with client-side modding/patching support.
