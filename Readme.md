@@ -1,4 +1,4 @@
-SS14.Launcher/Assets/logo-long.png
+![# Logo](SS14.Launcher/Assets/logo-long.png)
 
 ![# SGloader](SS14.Launcher/Assets/logos/thething.gif)
 
