@@ -1,4 +1,4 @@
-![# SGloader](SS14.Launcher/Assets/logos/th-3626631529.jpg)
+![# SGloader](SS14.Launcher\Assets\logos\th-3626631529.jpg)
 
 Space Station 14 launcher with client-side modding/patching support.
 
