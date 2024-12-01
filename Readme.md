@@ -1,6 +1,4 @@
-## Rewrite maybe in 10 years
-
-![# Marseyloader](SS14.Launcher/Assets/logo-long.png)
+![# SGloader](SS14.Launcher/Assets/logos/thething.gif)
 
 Space Station 14 launcher with client-side modding/patching support.
 
@@ -27,7 +25,7 @@ Space Station 14 launcher with client-side modding/patching support.
 * * Guest/Authless mode
 * * Option to not log into an account by default
 * * Locally change username for screenshots (This doesn't change your username in-game)
-* Marsey.
+* SuperGovno.
 
 ### Contributing
 If you have any feature you want added to the main repository you are free to submit a pull request.
@@ -49,10 +47,10 @@ Example patches can be found in the [ExampleMarseyPatch](https://github.com/Vali
 ### FAQ
 
 #### Where do I ask for help?
-Github issues or on the [discord server](https://discord.gg/xHtZXybKeh).
+Github issues or on the [discord server](https://discord.gg/Zn3dAtunBX).
 
 #### How do I make a patch?
-[Example Marseypatches](https://github.com/ValidHunters/ExampleMarseyPatch)
+[Example SGpatches](https://github.com/ValidHunters/ExampleMarseyPatch)
 
 #### What is subversion for?
 Subversion is used for adding your custom code (and not patching existing code) to the game, like custom commands and what not that can fully interact with the game as if they were part of the original code.
@@ -68,8 +66,7 @@ Enable loader debug, will be on your desktop
 
 #### STOP!
 
-Project EOL's immediately when our beloved friends *over there* allow client-side resource packs and UI mods.<br>
-This will never happen though.
+Project EOL's never<br>
 
 ### TODO
 * Resource swapping (resource packs)
